@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="KT 태블릿 스마트불전함 도입 안내 및 실제 사찰 설치 사례">
+<link rel="canonical" href="https://its30789889-hub.github.io/kt-smart-buljeonham/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:title" content="KT 태블릿 스마트불전함">
+<meta property="og:description" content="현금 없이 카드로 보시가 가능한 KT 스마트불전함. 간편한 보시, 투명한 관리, 편리한 정산. 상담 1522-0404">
+<meta property="og:url" content="https://its30789889-hub.github.io/kt-smart-buljeonham/">
+<meta property="og:image" content="https://its30789889-hub.github.io/kt-smart-buljeonham/assets/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#87552d">
+
+<title>KT 태블릿 스마트불전함</title>
+<style>
+:root{--brown:#87552d;--brown2:#a56d35;--deep:#2f241d;--cream:#faf6ef;--line:#eadfd1;--ink:#282522;--muted:#6f6862;--gold:#c8a16c;--shadow:0 18px 55px rgba(65,39,20,.15)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Pretendard,"Noto Sans KR","Apple SD Gothic Neo",Arial,sans-serif;color:var(--ink);line-height:1.65;background:#fff}img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
+.wrap{width:min(1180px,calc(100% - 38px));margin:auto}header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(14px);border-bottom:1px solid rgba(0,0,0,.06)}nav{height:72px;display:flex;align-items:center;justify-content:space-between}.logo{font-size:22px;font-weight:950;letter-spacing:-.04em}.logo span{color:var(--brown)}.menu{display:flex;gap:24px;align-items:center;font-size:14px;font-weight:800;color:#514a44}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:15px 24px;border-radius:999px;font-weight:900;border:1px solid transparent;transition:.2s}.btn.primary{background:var(--brown);color:#fff;box-shadow:0 10px 28px rgba(135,85,45,.27)}.btn.primary:hover{transform:translateY(-2px);background:#6f411e}.btn.light{background:#fff;border-color:#d9c6ad}
+.hero{min-height:780px;display:flex;align-items:center;background:linear-gradient(90deg,rgba(255,255,255,.98) 0%,rgba(255,255,255,.93) 42%,rgba(255,255,255,.12) 76%),url("assets/image-01-5fe9790a66d0.jpg") center/cover no-repeat;position:relative;overflow:hidden}.hero:after{content:"";position:absolute;right:-130px;bottom:-170px;width:450px;height:450px;border-radius:50%;background:rgba(201,161,104,.18)}.hero-inner{position:relative;z-index:1;max-width:760px;padding:100px 0}
+.kicker{display:inline-flex;align-items:center;gap:10px;color:var(--brown);font-weight:900;margin-bottom:18px}.kicker:before{content:"";width:30px;height:3px;background:var(--gold);border-radius:99px}
+h1,h2,h3,p{margin-top:0}h1{font-size:clamp(44px,6.3vw,80px);line-height:1.06;letter-spacing:-.06em;margin-bottom:24px}h1 strong{color:var(--brown)}h2{font-size:clamp(32px,4.3vw,52px);line-height:1.18;letter-spacing:-.045em;margin-bottom:18px}h3{font-size:22px;letter-spacing:-.03em}.lead{font-size:clamp(18px,2vw,23px);color:#514b46;max-width:710px}.hero-cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}.badges{display:flex;gap:10px;flex-wrap:wrap;margin-top:30px}.badge{padding:9px 14px;border:1px solid rgba(135,85,45,.2);border-radius:999px;background:rgba(255,255,255,.86);font-weight:800;font-size:14px}
+section{padding:96px 0}.soft{background:var(--cream)}.dark{background:var(--deep);color:#fff}.head{display:flex;justify-content:space-between;gap:36px;align-items:end;margin-bottom:42px}.head>p{max-width:600px;color:var(--muted);margin:0}.dark .head>p{color:#d9cec5}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.card{background:#fff;border:1px solid var(--line);border-radius:25px;padding:28px;box-shadow:0 10px 30px rgba(65,40,21,.06)}.step{width:44px;height:44px;border-radius:14px;background:#eee0d0;color:var(--brown);display:grid;place-items:center;font-weight:950;margin-bottom:18px}
+.split{display:grid;grid-template-columns:1.04fr .96fr;gap:52px;align-items:center}.stack{position:relative;min-height:570px}.stack .main{width:84%;height:540px;object-fit:cover;border-radius:34px;box-shadow:var(--shadow)}.stack .float{position:absolute;width:48%;right:0;bottom:12px;border:10px solid #fff;border-radius:26px;box-shadow:var(--shadow)}.checks{display:grid;gap:14px;margin:27px 0 34px}.checks div{display:flex;gap:12px;font-weight:800}.checks b{width:26px;height:26px;display:grid;place-items:center;border-radius:50%;background:#eee0d0;color:var(--brown);flex:none}
+.feature{background:rgba(255,255,255,.075);border:1px solid rgba(255,255,255,.14);border-radius:24px;padding:28px}.feature .ico{font-size:34px;margin-bottom:15px}.feature p{color:#d7ccc4;margin:0}
+.types{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.type{overflow:hidden;border-radius:26px;background:#fff;border:1px solid var(--line);box-shadow:0 8px 28px rgba(0,0,0,.05)}.type img{width:100%;aspect-ratio:16/10;object-fit:cover}.type .body{padding:24px}.tag{color:var(--brown);font-size:13px;font-weight:950;letter-spacing:.07em}
+.gallery{columns:3 300px;column-gap:18px}.gallery figure{break-inside:avoid;margin:0 0 18px;background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 10px 30px rgba(62,39,19,.09)}.gallery figcaption{padding:14px 16px;font-weight:800;color:#59514a}.gallery img{width:100%;height:auto}
+.proposal{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.proposal-card{padding:0;border:1px solid var(--line);background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 8px 22px rgba(0,0,0,.06);cursor:pointer;transition:.2s}.proposal-card:hover{transform:translateY(-4px)}.proposal-card img{width:100%;aspect-ratio:16/9;object-fit:cover}
+.case{display:grid;grid-template-columns:1.08fr .92fr;gap:44px;align-items:center;margin-top:52px}.case img{border-radius:30px;box-shadow:var(--shadow)}.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px}.metric{background:#fff;border:1px solid var(--line);padding:24px;border-radius:20px}.metric strong{font-size:32px;color:var(--brown);display:block;line-height:1.2}
+.phone{background:linear-gradient(135deg,#8d5a2b,#5a3218);color:#fff;text-align:center}.phone .number{font-size:clamp(48px,8vw,92px);font-weight:950;letter-spacing:-.04em;margin:18px 0}.phone p{color:#f1e8df;font-size:20px}
+.callbar{position:fixed;right:18px;bottom:18px;z-index:45}.callbar a{display:flex;gap:8px;align-items:center;padding:15px 21px;background:var(--brown);color:#fff;border-radius:999px;font-weight:950;box-shadow:0 12px 32px rgba(0,0,0,.28)}
+footer{background:#201a16;color:#cfc5bd;padding:34px 0;font-size:14px}.foot{display:flex;justify-content:space-between;gap:20px}
+.lightbox{position:fixed;inset:0;background:rgba(0,0,0,.9);display:none;align-items:center;justify-content:center;padding:24px;z-index:200}.lightbox.open{display:flex}.lightbox img{max-width:95vw;max-height:92vh;border-radius:10px}.lightbox button{position:absolute;right:22px;top:14px;background:none;border:0;color:#fff;font-size:44px;cursor:pointer}
+@media(max-width:900px){.menu a:not(.btn){display:none}.hero{min-height:690px;background:linear-gradient(rgba(255,255,255,.88),rgba(255,255,255,.96)),url("assets/image-01-5fe9790a66d0.jpg") center/cover}.split,.case{grid-template-columns:1fr}.grid3,.types,.metrics{grid-template-columns:1fr}.proposal{grid-template-columns:repeat(2,1fr)}.head{display:block}.stack{min-height:480px}.stack .main{height:450px}}
+@media(max-width:560px){.wrap{width:min(100% - 24px,1180px)}section{padding:72px 0}nav{height:64px}.logo{font-size:18px}.hero-inner{padding:80px 0}h1{font-size:43px}.proposal{grid-template-columns:1fr}.stack{min-height:390px}.stack .main{height:360px;width:90%}.stack .float{width:56%}.phone .number{font-size:50px}.foot{display:block}.callbar{right:10px;bottom:10px}}
+
+.temple-status{background:linear-gradient(180deg,#fff 0%,#fbf5eb 100%);position:relative;overflow:hidden}
+.temple-status:before{content:"";position:absolute;width:460px;height:460px;border-radius:50%;background:rgba(200,161,108,.12);right:-160px;top:-180px}
+.temple-hero-grid{display:grid;grid-template-columns:1.25fr .85fr .85fr;gap:22px;position:relative;z-index:1}
+.temple-main,.temple-card{background:#fff;border:1px solid #e5d5c0;border-radius:28px;overflow:hidden;box-shadow:0 14px 42px rgba(85,52,24,.10)}
+.temple-main{grid-row:span 1;border:2px solid #c99b5e;position:relative}
+.temple-main:before{content:"총본산 사용";position:absolute;left:18px;top:18px;z-index:2;background:#9a4e22;color:#fff;padding:9px 15px;border-radius:999px;font-size:13px;font-weight:950;box-shadow:0 8px 20px rgba(85,35,10,.22)}
+.temple-main img,.temple-card img{width:100%;height:290px;object-fit:cover}
+.temple-main img{height:340px}
+.temple-copy{padding:26px}
+.temple-rank{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+.temple-rank b{width:38px;height:38px;border-radius:12px;background:linear-gradient(135deg,#b7863e,#7c4a18);color:#fff;display:grid;place-items:center;font-size:20px}
+.temple-rank span{font-size:13px;font-weight:950;color:#9a612e;letter-spacing:.04em}
+.temple-copy h3{font-size:28px;margin-bottom:10px}
+.temple-main .temple-copy h3{font-size:34px}
+.temple-copy p{color:#625a53;margin:0}
+.trust-box{margin-top:26px;padding:24px 28px;border-radius:24px;background:#fff8ed;border:1px solid #e9d5b8;display:grid;grid-template-columns:auto 1fr;gap:18px;align-items:center}
+.trust-icon{width:66px;height:66px;border:2px solid #b7863e;border-radius:50%;display:grid;place-items:center;font-size:12px;font-weight:950;letter-spacing:.08em;color:#8b541f;background:#fff}
+.trust-box strong{display:block;font-size:22px;color:#754117;margin-bottom:5px}
+.temple-list-title{display:flex;align-items:center;gap:10px;margin:42px 0 18px;font-size:22px;font-weight:950}
+.temple-list{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.temple-chip{background:#fff;border:1px solid #eadcc9;border-radius:15px;padding:14px 16px;font-weight:850;display:flex;justify-content:space-between;gap:8px;align-items:center}
+.temple-chip em{font-style:normal;font-size:11px;padding:4px 8px;border-radius:999px;background:#edf2ff;color:#2455b6;font-weight:900;white-space:nowrap}
+.temple-chip em.taego{background:#edf7e9;color:#347623}
+.temple-chip em.cheontae{background:#fff0e7;color:#d25b19}
+.status-reference{margin-top:24px;border-radius:22px;overflow:hidden;border:1px solid #e6d9c9;background:#fff}
+.status-reference summary{padding:16px 20px;cursor:pointer;font-weight:900;color:#77502c}
+.status-reference img{width:100%;height:auto;border-top:1px solid #eee}
+@media(max-width:1000px){.temple-hero-grid{grid-template-columns:1fr 1fr}.temple-main{grid-column:1/-1}.temple-list{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:650px){.temple-hero-grid{grid-template-columns:1fr}.temple-main{grid-column:auto}.temple-main img,.temple-card img{height:250px}.temple-list{grid-template-columns:1fr 1fr}.trust-box{grid-template-columns:1fr}.temple-main .temple-copy h3{font-size:29px}}
+
+
+.temple-status-image{background:linear-gradient(180deg,#fff 0%,#fbf6ef 100%)}
+.temple-status-shot{border:1px solid #e7d6c1;border-radius:28px;overflow:hidden;background:#fff;box-shadow:0 18px 48px rgba(80,49,24,.10)}
+.temple-status-shot img{width:100%;height:auto;display:block}
+.safe-icon{width:42px;height:42px;display:flex;align-items:center;justify-content:center;margin-bottom:15px;color:#e7bf88}
+.safe-icon svg{width:38px;height:38px;display:block;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.safe-lotus{width:66px;height:66px;border:2px solid #b7863e;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#9a612e;background:#fff;flex:none}
+.safe-lotus svg{width:42px;height:42px;stroke:currentColor;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.phone .btn.light{color:#6f411e;background:#fff;border-color:#fff;min-width:210px}
+.phone .btn.light:hover{background:#f8efe5}
+@media(max-width:650px){.temple-status-shot{border-radius:18px}}
+
+
+.temple-status-clean{background:linear-gradient(180deg,#fff 0%,#fbf6ef 100%)}
+.temple-grid-clean{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:20px}
+.temple-card-clean{background:#fff;border:1px solid #ead9c4;border-radius:24px;overflow:hidden;box-shadow:0 12px 36px rgba(80,49,24,.09)}
+.temple-card-clean.main{border:2px solid #bd8747}
+.temple-image-wrap{position:relative;background:#f3ede6}
+.temple-image-wrap img{width:100%;height:280px;object-fit:cover;object-position:center}
+.temple-card-clean.main .temple-image-wrap img{height:320px;object-fit:cover;object-position:center}
+.temple-badge{position:absolute;left:16px;top:16px;background:#8f4a1f;color:#fff;padding:8px 13px;border-radius:999px;font-size:12px;font-weight:950}
+.temple-card-body{padding:22px}
+.temple-card-body .rank{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.temple-card-body .rank b{width:34px;height:34px;border-radius:10px;background:linear-gradient(135deg,#b9863d,#7e4c1b);color:#fff;display:grid;place-items:center}
+.temple-card-body .sect{font-size:12px;font-weight:950;color:#945d29}
+.temple-card-body h3{font-size:28px;margin-bottom:8px}
+.temple-card-body p{margin:0;color:#655d56}
+.temple-list-title{margin:34px 0 16px;font-size:22px;font-weight:950}
+.temple-list-clean{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.temple-chip-clean{background:#fff;border:1px solid #eadcc9;border-radius:14px;padding:13px 15px;display:flex;align-items:center;justify-content:space-between;gap:8px;font-weight:850}
+.temple-chip-clean em{font-style:normal;font-size:11px;padding:4px 8px;border-radius:999px;background:#edf2ff;color:#2455b6;font-weight:900;white-space:nowrap}
+.temple-chip-clean em.cheontae{background:#fff0e7;color:#d25b19}
+.temple-chip-clean em.taego{background:#edf7e9;color:#347623}
+.temple-note{margin-top:20px;padding:18px 20px;border:1px solid #e7d3b7;border-radius:16px;background:#fff8ed;color:#6f4a24}
+@media(max-width:1000px){.temple-grid-clean{grid-template-columns:1fr 1fr}.temple-card-clean.main{grid-column:1/-1}.temple-list-clean{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:650px){.temple-grid-clean{grid-template-columns:1fr}.temple-card-clean.main{grid-column:auto}.temple-image-wrap img,.temple-card-clean.main .temple-image-wrap img{height:240px}.temple-list-clean{grid-template-columns:1fr 1fr}}
+
+
+/* 주요 사찰 카드 사진 최종 보정 */
+.temple-image-wrap img,
+.temple-card-clean.main .temple-image-wrap img{
+  width:100%;
+  aspect-ratio:16/10;
+  height:auto !important;
+  object-fit:cover !important;
+  object-position:center !important;
+}
+@media(max-width:650px){
+  .temple-image-wrap img,
+  .temple-card-clean.main .temple-image-wrap img{
+    aspect-ratio:auto !important;
+    height:auto !important;
+    max-height:none !important;
+    object-fit:contain !important;
+    object-position:center !important;
+  }
+}
+
+
+.case-study-final{padding:96px 0;background:#fff}
+.case-final-grid{display:grid;grid-template-columns:1fr 1.08fr;gap:56px;align-items:center}
+.case-final-copy h2{margin-bottom:20px}
+.case-final-image img{width:100%;height:auto;display:block;border-radius:28px;box-shadow:0 18px 55px rgba(65,39,20,.14)}
+@media(max-width:900px){
+  .case-final-grid{grid-template-columns:1fr;gap:30px}
+  .case-final-image{order:2}
+  .case-final-copy{order:1}
+}
+@media(max-width:560px){
+  .case-study-final{padding:72px 0}
+  .case-final-image img{border-radius:18px}
+}
+
+
+/* 도입 효과 섹션 */
+.effect-section{padding:96px 0;background:linear-gradient(180deg,#fff 0%,#fcf8f2 100%)}
+.effect-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:56px;align-items:center}
+.effect-copy h2{margin-bottom:22px}
+.effect-copy h2 strong{color:#95602c}
+.effect-copy .lead{max-width:650px}
+.effect-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:34px}
+.effect-card{border:1px solid #ead8c3;border-radius:22px;padding:24px 18px;text-align:center;background:#fff;box-shadow:0 8px 24px rgba(90,54,25,.05)}
+.effect-card svg{width:42px;height:42px;stroke:#9a612e;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;margin-bottom:14px}
+.effect-card strong{display:block;font-size:22px;color:#8b541f;margin-bottom:5px;line-height:1.25}
+.effect-card span{font-size:15px;color:#554e48}
+.effect-list{background:#fff;border:1px solid #eadfd1;border-radius:28px;padding:18px 34px;box-shadow:0 18px 48px rgba(65,39,20,.10)}
+.effect-item{display:grid;grid-template-columns:68px 1fr;gap:18px;align-items:center;padding:20px 0;border-bottom:1px solid #eee3d6}
+.effect-item:last-child{border-bottom:0}
+.effect-icon{width:58px;height:58px;border-radius:50%;background:#f5eee5;display:grid;place-items:center}
+.effect-icon svg{width:31px;height:31px;stroke:#9a612e;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.effect-item h3{font-size:21px;color:#8b541f;margin:0 0 4px}
+.effect-item p{margin:0;color:#5f5852;font-size:15px}
+@media(max-width:900px){
+  .effect-grid{grid-template-columns:1fr;gap:34px}
+}
+@media(max-width:620px){
+  .effect-section{padding:72px 0}
+  .effect-cards{grid-template-columns:1fr;gap:12px}
+  .effect-card{display:grid;grid-template-columns:50px 1fr;text-align:left;align-items:center;column-gap:12px;padding:18px}
+  .effect-card svg{margin:0}
+  .effect-list{padding:8px 20px;border-radius:20px}
+  .effect-item{grid-template-columns:52px 1fr;gap:13px;padding:16px 0}
+  .effect-icon{width:48px;height:48px}
+  .effect-icon svg{width:27px;height:27px}
+  .effect-item h3{font-size:18px}
+  .effect-item p{font-size:14px}
+}
+
+</style>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Crect width=%2264%22 height=%2264%22 rx=%2214%22 fill=%22%2387552d%22/%3E%3Ctext x=%2232%22 y=%2242%22 font-size=%2234%22 text-anchor=%22middle%22 fill=%22white%22 font-family=%22Arial%22%3EKT%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+<header><div class="wrap"><nav><a class="logo" href="#top" aria-label="KT 스마트불전함 홈">KT <span>스마트불전함</span></a><div class="menu"><a href="#intro">도입배경</a><a href="#features">주요기능</a><a href="#photos">실제사진</a><a class="btn primary" href="tel:15220404" aria-label="상담문의 1522-0404로 전화">1522-0404</a></div></nav></div></header>
+<main id="top">
+<section class="hero"><div class="wrap hero-inner"><span class="kicker">현금 없는 스마트 보시문화</span><h1>사찰을 방문한 신도들이<br><strong>더욱 만족한</strong><br><span style="color:var(--brown)">KT 스마트불전함</span>으로<br>편리한 보시 문화 전하세요</h1><p class="lead">태블릿과 카드결제를 결합한 KT 스마트불전함으로 현금 준비의 부담은 줄이고, 사찰 운영과 보시 참여는 더 편리하게 만듭니다.</p><div class="hero-cta"><a class="btn primary" href="tel:15220404">상담문의 1522-0404</a><a class="btn light" href="#photos">실제 설치사진 보기</a></div><div class="badges"><span class="badge">카드·간편결제 지원</span><span class="badge">공양·불전·안내 콘텐츠</span><span class="badge">사찰환경 맞춤 설치</span></div></div></section>
+
+<section id="intro" class="soft"><div class="wrap"><div class="head"><div><span class="kicker">도입 배경</span><h2>사찰 보시환경도<br>이제는 스마트하게</h2></div><p>현금 이용 감소와 디지털 결제 확산에 맞춰 방문객 누구나 부담 없이 참여할 수 있는 새로운 보시 환경이 필요합니다.</p></div><div class="grid3"><article class="card"><div class="step">01</div><h3>현금 준비의 불편 해소</h3><p>현금을 소지하지 않은 방문객도 카드와 간편결제로 쉽게 보시할 수 있습니다.</p></article><article class="card"><div class="step">02</div><h3>보시 참여 기회 확대</h3><p>불전, 공양물, 기도 접수 등 다양한 항목을 화면에서 직관적으로 선택합니다.</p></article><article class="card"><div class="step">03</div><h3>운영·정산 편의성</h3><p>결제 내역과 매출 흐름을 확인할 수 있어 관리와 정산 업무가 효율적입니다.</p></article></div></div></section>
+
+
+
+<section id="temple-status" class="temple-status-clean">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <span class="kicker">실제 이용 사찰</span>
+        <h2>전국 주요 사찰에서<br>KT 스마트불전함을 사용하고 있습니다</h2>
+      </div>
+      <p>조계종 총본산 조계사를 비롯해 서산 간월암, 대전 동학사 등 주요 사찰의 이용 현황을 확인할 수 있습니다.</p>
+    </div>
+
+    <div class="temple-note">
+      <strong>조계종 총본산 조계사에서 사용 중</strong><br>
+      조계사는 조계종의 총본산으로 종단을 넘어 많은 스님과 사찰 관계자에게 상징성과 신뢰도가 큰 곳입니다.
+    </div>
+
+    <div class="temple-grid-clean" style="margin-top:24px">
+      <article class="temple-card-clean main">
+        <div class="temple-image-wrap">
+          
+          <img loading="lazy" src="assets/image-02-acd56c465720.png" alt="서울 조계사 스마트불전함 실제 설치 사진">
+        </div>
+        <div class="temple-card-body">
+          <div class="rank"><b>1</b><span class="sect">대한불교조계종 총본산</span></div>
+          <h3>서울 조계사</h3>
+          <p>대한민국 불교를 대표하는 조계종 총본산 조계사에서 KT 스마트불전함을 실제 운영하고 있습니다.</p>
+        </div>
+      </article>
+
+      <article class="temple-card-clean">
+        <div class="temple-image-wrap">
+          
+          <img loading="lazy" src="assets/image-03-5c3fc28e014c.png" alt="서산 간월암 스마트불전함 실제 설치 사진">
+        </div>
+        <div class="temple-card-body">
+          <div class="rank"><b>2</b><span class="sect">조계종</span></div>
+          <h3>서산 간월암</h3>
+          <p>서해의 대표적인 기도처인 간월암에서도 KT 스마트불전함을 이용하고 있습니다.</p>
+        </div>
+      </article>
+
+      <article class="temple-card-clean">
+        <div class="temple-image-wrap">
+          
+          <img loading="lazy" src="assets/image-04-795e82abc435.png" alt="대전 동학사 전경 사진">
+        </div>
+        <div class="temple-card-body">
+          <div class="rank"><b>3</b><span class="sect">조계종</span></div>
+          <h3>대전 동학사</h3>
+          <p>대전 동학사도 KT 스마트불전함 이용 사찰로 안내되고 있습니다.</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="temple-list-title">KT 스마트불전함 이용 사찰 현황</div>
+    <div class="temple-list-clean"><div class="temple-chip-clean"><span>청주 용화사</span><em class="">조계종</em></div><div class="temple-chip-clean"><span>청주 마야사</span><em class="">조계종</em></div><div class="temple-chip-clean"><span>대전 세등선원</span><em class="">조계종</em></div><div class="temple-chip-clean"><span>포항 보경사</span><em class="">조계종</em></div><div class="temple-chip-clean"><span>포항 원법사</span><em class="">조계종</em></div><div class="temple-chip-clean"><span>대전 연화사</span><em class="">조계종</em></div><div class="temple-chip-clean"><span>청주 명장사</span><em class="cheontae">천태종</em></div><div class="temple-chip-clean"><span>인천 황룡사</span><em class="cheontae">천태종</em></div><div class="temple-chip-clean"><span>신정사</span><em class="taego">태고종</em></div><div class="temple-chip-clean"><span>세종 영평사</span><em class="">조계종</em></div></div>
+  </div>
+</section>
+
+
+
+
+<section><div class="wrap split"><div class="stack"><img loading="eager" fetchpriority="high" class="main" src="assets/image-05-85c7b638b62a.jpg" alt="사찰 실제 설치 전경"><img loading="lazy" class="float" src="assets/image-06-ea51d4749693.jpg" alt="KT 스마트불전함 실제 결제 화면"></div><div><span class="kicker">통합 구축 지원</span><h2>네트워크부터 단말까지<br>한 번에 지원합니다</h2><p class="lead">설치 위치와 동선, 인터넷 환경을 확인한 뒤 가장 적합한 형태로 구성합니다.</p><div class="checks"><div><b>✓</b><span>태블릿 스마트불전함 단말 구성</span></div><div><b>✓</b><span>카드리더기 및 결제 서비스 연동</span></div><div><b>✓</b><span>인터넷·Wi-Fi 환경 점검 및 구축</span></div><div><b>✓</b><span>불전·공양·안내 콘텐츠 맞춤 적용</span></div></div><a class="btn primary" href="tel:15220404">설치 문의 1522-0404</a></div></div></section>
+
+<section id="features" class="dark"><div class="wrap"><div class="head"><div><span class="kicker" style="color:#e7c18c">주요 기능</span><h2>보시와 안내를<br>하나의 화면에서</h2></div><p>방문객에게는 간편한 이용 경험을, 사찰에는 효율적인 운영 환경을 제공합니다.</p></div><div class="grid3"><article class="feature"><div class="safe-icon"><svg viewBox="0 0 48 48"><rect x="5" y="10" width="38" height="28" rx="4"/><path d="M5 18h38"/><path d="M11 30h10"/></svg></div><h3>카드·간편결제</h3><p>현금 없이 원하는 항목과 금액을 선택해 손쉽게 결제합니다.</p></article><article class="feature"><div class="safe-icon"><svg viewBox="0 0 48 48"><path d="M24 39c-8-5-13-12-13-19 6 1 11 4 13 9 2-5 7-8 13-9 0 7-5 14-13 19z"/><path d="M24 34c-6-7-6-16 0-24 6 8 6 17 0 24z"/></svg></div><h3>공양·불전 접수</h3><p>불전, 공양물, 기도 등 사찰별 운영 항목을 구성할 수 있습니다.</p></article><article class="feature"><div class="safe-icon"><svg viewBox="0 0 48 48"><path d="M8 17h8l18-7v28l-18-7H8z"/><path d="M16 31l3 8h-7l-2-8"/></svg></div><h3>안내 콘텐츠</h3><p>법당수칙, 행사안내, 사찰 소식 등을 화면에 함께 노출합니다.</p></article><article class="feature"><div class="safe-icon"><svg viewBox="0 0 48 48"><path d="M8 38V24"/><path d="M20 38V14"/><path d="M32 38V20"/><path d="M42 38H6"/></svg></div><h3>매출 확인</h3><p>결제 내역과 일별·월별 흐름을 확인해 정산을 편리하게 합니다.</p></article><article class="feature"><div class="safe-icon"><svg viewBox="0 0 48 48"><path d="M8 20c10-10 22-10 32 0"/><path d="M14 26c6-6 14-6 20 0"/><path d="M20 32c3-3 5-3 8 0"/><circle cx="24" cy="38" r="2"/></svg></div><h3>통신환경 지원</h3><p>유선·무선 네트워크 환경을 점검하고 필요한 통신 구성을 지원합니다.</p></article><article class="feature"><div class="safe-icon"><svg viewBox="0 0 48 48"><rect x="10" y="7" width="28" height="34" rx="3"/><path d="M17 14h14"/><path d="M17 21h14"/><path d="M17 28h8"/></svg></div><h3>맞춤형 설치</h3><p>탁상형, 벽걸이형, 스탠드형 중 공간에 적합한 방식을 선택합니다.</p></article></div></div></section>
+
+<section><div class="wrap"><div class="head"><div><span class="kicker">설치 방식</span><h2>공간에 맞는 3가지 구성</h2></div><p>사찰 내부 구조와 방문 동선을 고려해 안정적이고 자연스럽게 배치합니다.</p></div><div class="types"><article class="type"><img loading="lazy" src="assets/image-07-e8261331a685.png" alt="스탠드형"><div class="body"><span class="tag">STAND</span><h3>스탠드형</h3><p>독립형 거치로 시인성이 좋고 넓은 안내 공간에 적합합니다.</p></div></article><article class="type"><img loading="lazy" src="assets/image-08-5691e875968e.png" alt="벽걸이형"><div class="body"><span class="tag">WALL</span><h3>벽걸이형</h3><p>좁은 공간에도 설치할 수 있어 방문 동선을 방해하지 않습니다.</p></div></article><article class="type"><img loading="lazy" src="assets/image-09-4a1457a3ad53.png" alt="탁상형 실제 사진"><div class="body"><span class="tag">DESK</span><h3>탁상형</h3><p>불단, 접수대, 안내대 위에 간편하게 배치하고 이동할 수 있습니다.</p></div></article></div></div></section>
+
+<section id="photos" class="soft"><div class="wrap"><div class="head"><div><span class="kicker">실제 사용 사진</span><h2>사찰 현장에 자연스럽게<br>어우러지는 스마트불전함</h2></div><p>실제 사찰 설치 사진을 통해 운영 모습을 확인할 수 있습니다.</p></div><div class="gallery"><figure><img loading="lazy" src="assets/image-01-5fe9790a66d0.jpg" alt="KT 스마트불전함 실제 설치 사진"><figcaption>법당 내부 실제 설치 전경</figcaption></figure>
+<figure><img loading="lazy" src="assets/image-06-ea51d4749693.jpg" alt="KT 스마트불전함 실제 설치 사진"><figcaption>불전 금액 선택 및 카드결제 화면</figcaption></figure>
+<figure><img loading="lazy" src="assets/image-05-85c7b638b62a.jpg" alt="KT 스마트불전함 실제 설치 사진"><figcaption>사찰 외부 공간 설치 모습</figcaption></figure>
+<figure><img loading="lazy" src="assets/image-10-ec1a1df69fa7.jpg" alt="KT 스마트불전함 실제 설치 사진"><figcaption>안내물과 함께 배치한 탁상형</figcaption></figure>
+<figure><img loading="lazy" src="assets/image-11-3e67093ee9f9.png" alt="KT 스마트불전함 실제 설치 사진"><figcaption>현장 홍보 안내물</figcaption></figure>
+<figure><img loading="lazy" src="assets/image-12-85165cae60bc.jpg" alt="KT 스마트불전함 실제 설치 사진"><figcaption>불전·공양·안내 화면 활용</figcaption></figure>
+<figure><img loading="lazy" src="assets/image-13-5539bde50366.jpg" alt="KT 스마트불전함 실제 설치 사진"><figcaption>설치 전·후 비교 사례</figcaption></figure>
+<figure><img loading="lazy" src="assets/image-14-7fbba290a313.jpg" alt="KT 스마트불전함 실제 설치 사진"><figcaption>조계사 실제 설치 사례</figcaption></figure></div></div></section>
+
+
+
+
+
+<section id="effect" class="effect-section">
+  <div class="wrap effect-grid">
+    <div class="effect-copy">
+      <span class="kicker">도입 효과</span>
+      <h2>사찰 운영은 <strong>더 편리하게</strong><br>보시는 <strong>더 쉽고 투명하게</strong></h2>
+      <p class="lead">현금 없이도 누구나 편리하게 보시할 수 있고, 사찰은 결제·정산·운영을 한 번에 관리할 수 있습니다.</p>
+      <div class="effect-cards">
+        <div class="effect-card">
+          <svg viewBox="0 0 48 48"><rect x="5" y="10" width="38" height="28" rx="4"/><path d="M5 18h38"/><path d="M11 30h10"/></svg>
+          <div><strong>현금 없이</strong><span>카드·간편결제</span></div>
+        </div>
+        <div class="effect-card">
+          <svg viewBox="0 0 48 48"><path d="M15 8l5 5-7 7-5-5z"/><path d="M28 20l12 12-8 8-12-12"/><path d="M21 27L9 39"/><path d="M30 9a9 9 0 0 0-9 9"/></svg>
+          <div><strong>3가지 설치</strong><span>탁상·벽걸이·스탠드</span></div>
+        </div>
+        <div class="effect-card">
+          <svg viewBox="0 0 48 48"><path d="M24 39c-8-5-13-12-13-19 6 1 11 4 13 9 2-5 7-8 13-9 0 7-5 14-13 19z"/><path d="M24 34c-6-7-6-16 0-24 6 8 6 17 0 24z"/></svg>
+          <div><strong>통합 관리</strong><span>단말·통신·결제</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="effect-list">
+      <div class="effect-item">
+        <div class="effect-icon"><svg viewBox="0 0 48 48"><rect x="5" y="10" width="38" height="28" rx="4"/><path d="M5 18h38"/><path d="M11 30h10"/></svg></div>
+        <div><h3>현금 없는 보시 환경</h3><p>카드와 간편결제로 누구나 쉽게 보시할 수 있습니다.</p></div>
+      </div>
+      <div class="effect-item">
+        <div class="effect-icon"><svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="7"/><path d="M24 5v5M24 38v5M5 24h5M38 24h5M10.5 10.5l3.5 3.5M34 34l3.5 3.5M37.5 10.5L34 14M14 34l-3.5 3.5"/></svg></div>
+        <div><h3>설치공사 없이 간편 구축</h3><p>사찰 환경에 맞는 거치 방식으로 공간 제약을 줄입니다.</p></div>
+      </div>
+      <div class="effect-item">
+        <div class="effect-icon"><svg viewBox="0 0 48 48"><ellipse cx="20" cy="14" rx="10" ry="5"/><path d="M10 14v12c0 3 4 5 10 5"/><path d="M30 14v9"/><circle cx="31" cy="31" r="10"/><path d="M31 25v12M27 28h7M27 34h7"/></svg></div>
+        <div><h3>투명한 보시 관리</h3><p>결제 내역과 정산 자료를 체계적으로 확인할 수 있습니다.</p></div>
+      </div>
+      <div class="effect-item">
+        <div class="effect-icon"><svg viewBox="0 0 48 48"><path d="M24 5l15 6v10c0 10-6 17-15 22-9-5-15-12-15-22V11z"/><path d="M17 24l5 5 10-11"/></svg></div>
+        <div><h3>안정적인 통신 및 보안</h3><p>KT 통신 환경을 기반으로 안정적으로 운영할 수 있습니다.</p></div>
+      </div>
+      <div class="effect-item">
+        <div class="effect-icon"><svg viewBox="0 0 48 48"><path d="M8 38V26h6v12M20 38V18h6v20M32 38V10h6v28M5 38h38"/></svg></div>
+        <div><h3>효율적인 운영 지원</h3><p>내역 분석과 운영 자료를 통해 관리 효율을 높입니다.</p></div>
+      </div>
+      <div class="effect-item">
+        <div class="effect-icon"><svg viewBox="0 0 48 48"><path d="M8 39h32M11 39V25h26v14M15 25V16h18v9M19 16V9h10v7M16 30h4M24 30h4M32 30h2"/></svg></div>
+        <div><h3>전국 주요 사찰 운영</h3><p>주요 사찰의 실제 운영 사례를 통해 신뢰도를 높였습니다.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="phone"><div class="wrap"><span class="kicker" style="color:#f2d4aa">대표 문의</span><h2>KT 태블릿 스마트불전함 도입 상담</h2><div class="number">1522-0404</div><p>설치 환경, 수량, 구성 및 비용 상담은 대표번호로 문의해 주세요.</p><a class="btn light" href="tel:15220404">1522-0404 전화하기</a></div></section>
+</main>
+<footer><div class="wrap foot"><strong>KT 태블릿 스마트불전함</strong><span>※ 실제 요금 및 설치 조건은 현장 환경과 계약 조건에 따라 달라질 수 있습니다.</span></div></footer>
+<div class="callbar"><a href="tel:15220404">☎ 1522-0404</a></div>
+<div class="lightbox" id="lightbox"><button type="button" aria-label="닫기">×</button><img loading="lazy" alt="제안서 확대 이미지"></div>
+<script>
+const lb=document.getElementById('lightbox'),lbImg=lb.querySelector('img');
+document.querySelectorAll('.proposal-card').forEach(b=>b.addEventListener('click',()=>{lbImg.src=b.dataset.full;lb.classList.add('open')}));
+lb.addEventListener('click',e=>{if(e.target===lb||e.target.tagName==='BUTTON')lb.classList.remove('open')});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')lb.classList.remove('open')});
+</script>
+</body>
+</html>
